@@ -15,5 +15,6 @@
 * 5V water pump (5  ευρώ)
 * 5V solar panel 13 Ευρώ)
 * DFRobot Solar Power Manager 5V (12 Ευρώ)
-* 2 x 3.7V lithium battery (14 ευρώ) 
+* 2 x 3.7V lithium battery (14 ευρώ)
+
 Συνολικό κόστος 168€
