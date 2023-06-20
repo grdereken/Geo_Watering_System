@@ -62,8 +62,7 @@ https://bc-robotics.com/tutorials/controlling-a-solenoid-valve-with-arduino/
 <img class="alignnone size-full wp-image-10789" src="https://openedtech.ellak.gr/wp-content/uploads/sites/31/2023/05/Παρουσίαση1.jpg" alt="" width="960" height="720" />
 
 <strong>Ο κώδικας της εφαρμογής,</strong> Χρησιμοποιήθηκε η αντικειμενοστραφής σχεδίαση του προγράμματος:
-
-'''
+```
 // Sensor pins
 int sensorPower1 = 2;
 int sensorPower2 = 3;
@@ -205,7 +204,7 @@ void loop() {
   plant2.main();
   delay(2000);
 }
-'''
+```
 
 Το <strong>βίντεο</strong> παρουσίασης της λειτουργίας:
 
