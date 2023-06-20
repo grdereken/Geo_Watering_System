@@ -102,8 +102,8 @@ class moistureSensor{
     void on(){
       digitalWrite(sensorPower, HIGH); 
     }
-
 };
+
 class Solenoid{
   private:
     int startTime;
