@@ -103,7 +103,8 @@ class moistureSensor{
       digitalWrite(sensorPower, HIGH); 
     }
 };
-
+'''
+'''
 class Solenoid{
   private:
     int startTime;
@@ -134,7 +135,8 @@ class Solenoid{
       return finalTime - startTime;
     }
  };
-
+ '''
+'''
 class Plant{
   private:
     int solenoidSignal;
@@ -192,8 +194,9 @@ class Plant{
       }
     }
 };
+'''
 
-
+'''
 Plant plant1("Plant1", solenoidSignal1, sensorPower1, sensorPin1);
 Plant plant2("Plant2", solenoidSignal2, sensorPower2, sensorPin2);
 void setup() {
