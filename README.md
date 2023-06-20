@@ -102,11 +102,10 @@ class moistureSensor{
     void on(){
       digitalWrite(sensorPower, HIGH); 
     }
-};
-'''
-'''
+}
+
 class Solenoid{
-  private:
+private:
     int startTime;
     int finalTime;
     int SolenoidSignal;
@@ -134,9 +133,8 @@ class Solenoid{
     int getOpenTime(){
       return finalTime - startTime;
     }
- };
- '''
-'''
+ }
+
 class Plant{
   private:
     int solenoidSignal;
@@ -193,10 +191,8 @@ class Plant{
         Serial.println("------------------------");
       }
     }
-};
-'''
+}
 
-'''
 Plant plant1("Plant1", solenoidSignal1, sensorPower1, sensorPin1);
 Plant plant2("Plant2", solenoidSignal2, sensorPower2, sensorPin2);
 void setup() {
