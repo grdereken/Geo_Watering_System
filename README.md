@@ -105,14 +105,15 @@ class moistureSensor{
 }
 
 class Solenoid{
+
 private:
     int startTime;
     int finalTime;
     int SolenoidSignal;
     void init(){
-      pinMode(SolenoidSignal, OUTPUT);
+    pinMode(SolenoidSignal, OUTPUT);
     }
-  public:
+    public:
     bool isOpen;
     Solenoid(int SolenoidSignal){
       this->SolenoidSignal = SolenoidSignal;
