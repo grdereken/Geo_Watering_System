@@ -63,7 +63,8 @@ https://bc-robotics.com/tutorials/controlling-a-solenoid-valve-with-arduino/
 
 <strong>Ο κώδικας της εφαρμογής,</strong> Χρησιμοποιήθηκε η αντικειμενοστραφής σχεδίαση του προγράμματος:
 
-'''// Sensor pins
+'''
+// Sensor pins
 int sensorPower1 = 2;
 int sensorPower2 = 3;
 int sensorPin1 = A0;
@@ -203,7 +204,8 @@ void loop() {
   plant1.main();
   plant2.main();
   delay(2000);
-}'''
+}
+'''
 
 Το <strong>βίντεο</strong> παρουσίασης της λειτουργίας:
 
