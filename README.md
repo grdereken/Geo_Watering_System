@@ -207,5 +207,5 @@ void loop() {
 ```
 
 Το <strong>βίντεο</strong> παρουσίασης της λειτουργίας:
-<img class="alignnone size-full wp-image-10789" src="images/circuit.jpg"  />
+<img class="alignnone size-full wp-image-10789" src="images/circuit.jpg"  width=600/>
 
